@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 class Grade{
   // this is a constructor 
-  public GradeAnalyzer(){
+  public Grade(){
     
   }
-  // we craete a method that takes an array as an argeument 
+  // we create a method that takes an array as an argument
   
   public int getAverage(ArrayList<Integer>grades){
     // it first checks the size of the list to make sure its not less  than one 
@@ -15,7 +15,7 @@ class Grade{
     else{
       
        int sum = 0;
-      //we loop through the array list passed as an arguement and add them 
+      //we loop through the array list passed as an argument and add them 
       for( Integer grade :grades){
         sum =sum+grade;
       }
@@ -36,7 +36,7 @@ class Grade{
     myClassroom.add(89);
     myClassroom.add(95);
     
-   GradeAnalyzer myAnalyzer = new GradeAnalyzer();
+   Grade myAnalyzer = new Grade();
     myAnalyzer.getAverage(myClassroom);
     
   }
